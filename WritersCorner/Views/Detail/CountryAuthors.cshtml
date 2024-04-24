@@ -1,0 +1,33 @@
+@model List<Author>
+@{
+    ViewData["Title"] = "CountryAuthors";
+    int count = 0;
+}
+
+@foreach (var name in ViewBag.CountryName)
+{
+    <h2>@name's Authors</h2>
+    break;
+}
+<hr>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width: 30px;" scope="col">#</th>
+            <th style="width: 100px;" scope="col">Author Image</th>
+            <th scope="col">Author FullName</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td><a style="text-decoration: none; color:black" href="/detail/authordetail/@item.AuthorId"><img class="card-fluid" src="~/img/authors/@item.AuthorImage" width="70px"></a></td>
+                    <td><a style="text-decoration: none; color:black" href="/detail/authordetail/@item.AuthorId">@item.AuthorFullName</a></td>
+                </tr>
+        }
+    </tbody>
+</table>

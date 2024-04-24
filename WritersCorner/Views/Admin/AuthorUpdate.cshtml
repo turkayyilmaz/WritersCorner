@@ -1,0 +1,35 @@
+@model Author
+@{
+    ViewData["Title"] = "AuthorUpdate";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+}
+<h1>Edit Author</h1>
+<hr>
+<form asp-controller="Admin" asp-action="AuthorUpdate" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All"></div>
+    <input type="hidden" asp-for="AuthorId">
+    <div class="mb-3">
+        <label asp-for="AuthorName" class="form-label">Author Name</label>
+        <input type="text" asp-for="AuthorName" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="AuthorSurname" class="form-label">Author Surname</label>
+        <input type="text" asp-for="AuthorSurname" class="form-control">
+    </div>
+       <div class="mb-3">
+        <label asp-for="AuthorImage" class="form-label">Author Image</label>
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <div class="mb-3">
+        <img src="~/img/authors/@Model.AuthorImage" style="width: 100px;">
+        @* we sent the image info back *@
+        <input type="hidden" asp-for="@Model.AuthorImage"> 
+    </div>
+    <div class="mb-3">
+        <label asp-for="CountryId" class="form-label">Country</label>
+        <select asp-for="CountryId" class="form-select" asp-items='@(@ViewBag.Countries)'>
+            <option value="0">Country Select</option>
+        </select>
+    </div>
+    <button class="btn btn-primary">Update</button>
+</form>

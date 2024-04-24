@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Admin Panel Login Page</h2>
+<hr>
+<div class="d-flex justify-content-center">
+    <div class="container">
+        <form asp-controller="Admin" asp-action="Index" method="post">
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" class="form-control" name="username">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <button type="submit" class="btn bg-zort">Login</button>
+        </form>
+    </div>
+</div>

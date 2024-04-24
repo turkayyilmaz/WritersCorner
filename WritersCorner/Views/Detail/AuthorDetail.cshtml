@@ -1,0 +1,49 @@
+@model Author
+@{
+    ViewData["Title"] = "AuthorDetail";
+    int count = 0;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/img/authors/@Model.AuthorImage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.AuthorFullName</h5>
+                    <p class="card-text">Birth Place: @Model.Country.CountryName <img class="card-fluid"
+                            src="~/img/countries/@Model.Country.CountryImage" width="35px"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <h2>@Model.AuthorFullName's Books</h2>
+            <hr>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Book Image</th>
+                        <th scope="col">Book Name</th>
+                        <th scope="col">Book Description</th>
+                        <th scope="col">Book Price</th>
+                        <th scope="col">Book Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.Books)
+                    {
+                        count++;
+                        <tr>
+                            <th scope="row">@count</th>
+                            <td><img class="card-fluid" src="~/img/books/@item.BookImage" width="70px"></td>
+                            <td>@item.BookName</td>
+                            <td>@item.BookDescription</td>
+                            <td>@item.BookPrice</td>
+                            <td>@item.Category.CategoryName</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

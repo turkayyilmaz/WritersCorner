@@ -1,0 +1,26 @@
+@model Country
+@{
+    ViewData["Title"] = "CountryUpdate";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+}
+<h1>Edit Country</h1>
+<hr>
+<form asp-controller="Admin" asp-action="CountryUpdate" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All"></div>
+    <input type="hidden" asp-for="CountryId">
+    <div class="mb-3">
+        <label asp-for="CountryName" class="form-label">Country Name</label>
+        <input type="text" asp-for="CountryName" class="form-control">
+    </div>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CountryImage" class="form-label">Country Image</label>
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <div class="mb-3">
+        <img src="~/img/countries/@Model.CountryImage" style="width: 100px;">
+        @* we sent the image info back *@
+        <input type="hidden" asp-for="@Model.CountryImage">
+    </div>
+    <button class="btn btn-primary">Update</button>
+</form>

@@ -1,0 +1,32 @@
+@model Book
+@{
+    ViewData["Title"] = "BookDetail";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/img/books/@Model.BookImage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.BookName</h5>
+                    <p class="card-text">Published Place: @Model.Country.CountryName <img class="card-fluid"
+                            src="~/img/countries/@Model.Country.CountryImage" width="35px"></p>
+                    <p class="card-text">Category: @Model.Category.CategoryName</p>
+                    <p class="card-text">Price: @Model.BookPrice</p>
+                </div>
+                <hr>
+                <h5 class="card-text">Author : @Model.Author.AuthorFullName</h5>
+                <img class="img-fluid" src="~/img/authors/@Model.Author.AuthorImage">
+            </div>
+        </div>
+        <div class="col-8">
+
+            <div class="card" style="">
+                <div class="card-body">
+                    <h5 class="card-title">Book Description</h5>
+                    <p class="card-text">@Model.BookDescription</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

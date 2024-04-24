@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WritersCorner.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WritersCorner.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\78c76247-41c1-4847-8fdc-ec54b536cbfa.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\78c76247-41c1-4847-8fdc-ec54b536cbfa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\a-halil-inalcik.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\a-halil-inalcik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\a-hans-delbruck.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\a-hans-delbruck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\a-howard-zinn.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\a-howard-zinn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\a-nabizade-nazim.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\a-nabizade-nazim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\aaf3d182-d0ab-41bc-8a83-9d1960252b68.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\aaf3d182-d0ab-41bc-8a83-9d1960252b68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\cf6b0017-3b12-4fc8-8779-92f4ee8a7cb0.jpg",
+      "PackagePath": "staticwebassets\\img\\authors\\cf6b0017-3b12-4fc8-8779-92f4ee8a7cb0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\authors\\f87c4c21-a09e-4ef5-8482-9d38f8c3a26a.png",
+      "PackagePath": "staticwebassets\\img\\authors\\f87c4c21-a09e-4ef5-8482-9d38f8c3a26a.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\background.jpg",
+      "PackagePath": "staticwebassets\\img\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\087bb3b2-19a0-4eaa-a4e1-c74012095e01.png",
+      "PackagePath": "staticwebassets\\img\\books\\087bb3b2-19a0-4eaa-a4e1-c74012095e01.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\0e1e85ac-fc96-4c87-82a6-b8e0cd774d64.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\0e1e85ac-fc96-4c87-82a6-b8e0cd774d64.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\15f1d060-1106-4cc2-b6b0-71e8d6b4091e.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\15f1d060-1106-4cc2-b6b0-71e8d6b4091e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\1f5a2e68-ff7f-4fcc-8544-6bad5e85512c.txt",
+      "PackagePath": "staticwebassets\\img\\books\\1f5a2e68-ff7f-4fcc-8544-6bad5e85512c.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\2835fdc1-cc9c-45a7-8e61-bd3236e75d6c.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\2835fdc1-cc9c-45a7-8e61-bd3236e75d6c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\44bf4b32-979a-47eb-b3ae-c3e8a1e981cc.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\44bf4b32-979a-47eb-b3ae-c3e8a1e981cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\5028e8f9-44e4-4716-8d17-673c22c1a3cd.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\5028e8f9-44e4-4716-8d17-673c22c1a3cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\6865cbe6-1cdd-4505-99e7-e7da27035499.png",
+      "PackagePath": "staticwebassets\\img\\books\\6865cbe6-1cdd-4505-99e7-e7da27035499.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\7ab324a7-7fe0-4568-ad33-fb120d59d85a.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\7ab324a7-7fe0-4568-ad33-fb120d59d85a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\7edc9250-f61c-4b71-ac79-156294e981e1.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\7edc9250-f61c-4b71-ac79-156294e981e1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\866791a6-57b3-43b9-b5dc-ac76c2b09aed.png",
+      "PackagePath": "staticwebassets\\img\\books\\866791a6-57b3-43b9-b5dc-ac76c2b09aed.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\9e121bf1-deb6-4802-9282-091857fe9ab0.png",
+      "PackagePath": "staticwebassets\\img\\books\\9e121bf1-deb6-4802-9282-091857fe9ab0.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\b-history-of-usa.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\b-history-of-usa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\b-modern-warfare.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\b-modern-warfare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\b-osmanli.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\b-osmanli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\b-zehra.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\b-zehra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\b134f033-a60a-4ed5-8a4c-debf86d8edcb.txt",
+      "PackagePath": "staticwebassets\\img\\books\\b134f033-a60a-4ed5-8a4c-debf86d8edcb.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\ca0c6307-8836-4ee7-b3bd-a96fb45307e4.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\ca0c6307-8836-4ee7-b3bd-a96fb45307e4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\ecc517a4-09ae-44fd-8d36-0ef717bd9262.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\ecc517a4-09ae-44fd-8d36-0ef717bd9262.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\f27ecb77-cc45-4505-bc44-b4cc3bf4b4ed.png",
+      "PackagePath": "staticwebassets\\img\\books\\f27ecb77-cc45-4505-bc44-b4cc3bf4b4ed.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\books\\faeb3675-2ae0-4244-aa5d-d07aa52b0684.png",
+      "PackagePath": "staticwebassets\\img\\books\\faeb3675-2ae0-4244-aa5d-d07aa52b0684.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\0f7c0843-104a-4114-b5b1-927852998d6c.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\0f7c0843-104a-4114-b5b1-927852998d6c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\159258fe-6b2d-482f-9578-28560c5ee475.png",
+      "PackagePath": "staticwebassets\\img\\countries\\159258fe-6b2d-482f-9578-28560c5ee475.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\2664fb66-6f84-4749-97f0-8c07a670b12b.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\2664fb66-6f84-4749-97f0-8c07a670b12b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\4eadb808-de8a-4501-a641-9c644261a47e.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\4eadb808-de8a-4501-a641-9c644261a47e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\760bea79-e98f-4849-ada0-7ea026c4f0a0.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\760bea79-e98f-4849-ada0-7ea026c4f0a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\germany.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\germany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\turkiye.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\turkiye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\img\\countries\\usa.jpg",
+      "PackagePath": "staticwebassets\\img\\countries\\usa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\My Projects\\WritersCorner\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WritersCorner.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WritersCorner.props",
+      "PackagePath": "build\\WritersCorner.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WritersCorner.props",
+      "PackagePath": "buildMultiTargeting\\WritersCorner.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WritersCorner.props",
+      "PackagePath": "buildTransitive\\WritersCorner.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,45 @@
+@model List<Book>
+@{
+    ViewData["Title"] = "Book";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+    int count = 0;
+}
+<h2>Book List</h2>
+<hr>
+<a asp-controller="Admin" asp-action="CreateBook" class="btn btn-outline-dark btn-sm mb-3">Create a Book</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">BookId</th>
+            <th style="width: 100px;" scope="col">Book Name</th>
+            <th style="width: 400px;" scope="col">Book Description</th>
+            <th scope="col">Book Price</th>
+            <th scope="col">Book Image</th>
+            <th scope="col">Author</th>
+            <th scope="col">Category</th>
+            <th scope="col">Country</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <th scope="row">@count</th>
+                <th scope="row">@item.BookId</th>
+                <td>@item.BookName</td>
+                <td>@item.BookDescription</td>
+                <td>@item.BookPrice</td>
+                <td>@item.BookImage</td>
+                <td>@item.Author.AuthorFullName</td>
+                <td>@item.Category.CategoryName</td>
+                <td>@item.Country.CountryName</td>
+                <td><a asp-controller="Admin" asp-action="BookUpdate" asp-route-id="@item.BookId" class="btn btn-outline-primary">Update</a></td>
+                <td><a asp-controller="Admin" asp-action="BookDelete" asp-route-id="@item.BookId" class="btn btn-outline-danger">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

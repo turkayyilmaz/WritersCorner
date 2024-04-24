@@ -1,0 +1,37 @@
+@model List<Country>
+@{
+    ViewData["Title"] = "Country";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+    int count = 0;
+}
+<h2>Country List</h2>
+<hr>
+<a asp-controller="Admin" asp-action="CreateCountry" class="btn btn-outline-dark btn-sm mb-3">Create a Country</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">CountryId</th>
+            <th scope="col">Country Name</th>
+            <th scope="col">Country Image</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <th scope="row">@count</th>
+                <th scope="row">@item.CountryId</th>
+                <td>@item.CountryName</td>
+                <td>@item.CountryImage</td>
+                <td><a asp-controller="Admin" asp-action="CountryUpdate" asp-route-id="@item.CountryId"
+                        class="btn btn-outline-primary">Update</a></td>
+                <td><a asp-controller="Admin" asp-action="CountryDelete" asp-route-id="@item.CountryId"
+                        class="btn btn-outline-danger">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

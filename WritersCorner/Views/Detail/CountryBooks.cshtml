@@ -1,0 +1,40 @@
+@model List<Book>
+@{
+    ViewData["Title"] = "CountryBooks";
+    int count = 0;
+}
+
+@foreach (var name in ViewBag.CountryName)
+{
+    <h2>@name's Books</h2>
+    break;
+}
+<hr>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Book Image</th>
+            <th scope="col">Book Name</th>
+            <th scope="col">Book Description</th>
+            <th scope="col">Book Price</th>
+            <th scope="col">Book Author</th>
+            <th scope="col">Book Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <th scope="row">@count</th>
+                <td><img class="card-fluid" src="~/img/books/@item.BookImage" width="70px"></td>
+                <td>@item.BookName</td>
+                <td>@item.BookDescription</td>
+                <td>@item.BookPrice</td>
+                <td>@item.Author.AuthorFullName</td>
+                <td>@item.Category.CategoryName</td>
+            </tr>
+        }
+    </tbody>
+</table>

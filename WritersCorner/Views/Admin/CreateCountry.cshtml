@@ -1,0 +1,19 @@
+@model Country
+@{
+    ViewData["Title"] = "CreateCountry";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+}
+<h1>Create a Country</h1>
+<hr>
+<form asp-controller="Admin" asp-action="CreateCountry" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label asp-for="CountryName" class="form-label">Country Name</label>
+        <input type="text" asp-for="CountryName" class="form-control">
+    </div>
+    <div class="input-group mb-3">
+        <label asp-for="CountryImage" class="form-label">Country Image</label><br>
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <button class="btn btn-primary">Add</button>
+</form>

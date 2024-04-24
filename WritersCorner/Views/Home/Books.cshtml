@@ -1,0 +1,66 @@
+@model BookViewModel
+@{
+    ViewData["Title"] = "Books";
+}
+<h2>Book List</h2>
+<hr>
+<form method="get" class="d-flex mb-3" asp-controller="Home" asp-action="Books">
+    <input type="search" name="search" placeholder="Insert a book name..." value="@ViewBag.Search" class="form-control m-1">
+    <button type="submit" class="btn bg-zort search-color"><i class="material-symbols-outlined m-1">
+            search</i>
+    </button>
+</form>
+    <div class="card card-body my-3">
+        <form asp-controller="Home" asp-action="Books" method="get">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11">
+                        <select name="category"
+                        class="form-select"
+                        asp-items='@(new SelectList(Model.Categories, "CategoryName", "CategoryName", Model.SelectedCategory))'>
+                            <option value="0">Category Select</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="submit" class="btn bg-zort text-light">Filter</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+<div class="row">
+    @foreach (var item in Model.Books)
+    {
+        <div class="col-3">
+        <a style="text-decoration: none;" href="/detail/bookdetail/@item.BookId">
+            <div class="card p-3 bg-white"><i class="fa fa-apple"></i>
+                <div class="about-product text-center mt-2"><img src="~/img/books/@(item.BookImage)" class="img-fluid">
+                    <div class="mt-2">
+                        @{
+                            string Name = item.BookName.Length > 40 ? item.BookName.Substring(0, 40) + "..." : item.BookName;
+                            string Description = item.BookDescription.Length > 110 ? item.BookDescription.Substring(0, 110) +
+                            "..." : item.BookDescription;
+                        }
+                        <h4>@Name</h4>
+                        <h6 class="mt-0 text-black-50">@Description</h6>
+                    </div>
+                </div>
+                <div class="stats mt-2">
+                    <div class="d-flex justify-content-between p-price"><span>Author:</span><span>@item.Author.AuthorName
+                            @item.Author.AuthorSurname</span>
+                    </div>
+                    <div class="d-flex justify-content-between p-price">
+                        <span>Category:</span><span>@item.Category.CategoryName</span>
+                    </div>
+                    <div class="d-flex justify-content-between p-price">
+                        <span>Country:</span><span>@item.Country.CountryName</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between total font-weight-bold mt-4">
+                    <span>Price:</span><span>@item.BookPrice</span>
+                </div>
+            </div>
+        </a>
+        </div>
+    }
+</div>

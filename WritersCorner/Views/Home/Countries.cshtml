@@ -1,0 +1,32 @@
+@model IEnumerable<Country>
+@{
+    ViewData["Title"] = "Countries";
+}
+
+<h2>Country List</h2>
+<hr>
+<form asp-controller="Home" asp-action="Countries" class="d-flex mb-3" method="get">
+    <input type="search" name="search" placeholder="Insert a country name..." value="@ViewBag.Search" class="form-control m-1">
+    <button type="submit" class="btn bg-zort search-color"><i class="material-symbols-outlined m-1">search</i></button>
+</form>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-3">
+            <div class="card p-3 bg-white"><i class="fa fa-apple"></i>
+                <div class="about-product text-center mt-2"><img
+                        src="~/img/countries/@item.CountryImage" class="img-fluid">
+                    <div class="mt-2">
+                       
+                        <h4>@item.CountryName</h4>
+                    </div>
+                </div>
+                <div class="stats mt-2">
+                    <a style="width: 100%;" class="btn btn-outline-dark mb-1" href="/detail/countryauthors/@item.CountryId">See Authors</a><br>
+                    <a style="width: 100%;" class="btn btn-outline-dark" href="/detail/countrybooks/@item.CountryId">See Books</a>
+                </div>
+                
+            </div>
+        </div>
+    }
+</div>

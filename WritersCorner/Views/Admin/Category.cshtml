@@ -1,0 +1,33 @@
+@model List<Category>
+@{
+    ViewData["Title"] = "Category";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+    int count = 0;
+}
+<h2>Category List</h2>
+<hr>
+<a asp-controller="Admin" asp-action="CreateCategory" class="btn btn-outline-dark btn-sm mb-3">Create a Category</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">CategoryId</th>
+            <th scope="col">Category Name</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <th scope="row">@count</th>
+                <th scope="row">@item.CategoryId</th>
+                <td>@item.CategoryName</td>
+                <td><a asp-controller="Admin" asp-action="CategoryUpdate" asp-route-id="@item.CategoryId" class="btn btn-outline-primary">Update</a></td>
+                <td><a asp-controller="Admin" asp-action="CategoryDelete" asp-route-id="@item.CategoryId" class="btn btn-outline-danger">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,52 @@
+@model Book
+@{
+    ViewData["Title"] = "BookUpdate";
+    Layout = "/Views/Admin/AdminPage.cshtml";
+}
+
+<h1>Edit Book</h1>
+<hr>
+<form asp-controller="Admin" asp-action="BookUpdate" method="post" enctype="multipart/form-data">
+<div asp-validation-summary="All"></div>
+    <input type="hidden" asp-for="BookId">
+    <div class="mb-3">
+        <label asp-for="BookName" class="form-label">Book Name</label>
+        <input type="text" asp-for="BookName" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="BookDescription" class="form-label">Book Description</label>
+        <input type="text" asp-for="BookDescription" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="BookPrice" class="form-label">Book Price</label>
+        <input type="text" asp-for="BookPrice" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="BookImage" class="form-label">Book Image</label>
+        <input type="file" name="imageFile" id="imageFile" class="form-control">
+    </div>
+    <div class="mb-3">
+        <img src="~/img/books/@Model.BookImage" style="width: 100px;">
+        @* we sent the image info back *@
+        <input type="hidden" asp-for="@Model.BookImage"> 
+    </div>
+    <div class="mb-3">
+        <label asp-for="AuthorId" class="form-label">Author</label>
+        <select asp-for="AuthorId" class="form-select" asp-items='@(@ViewBag.Authors)'>
+            <option value="0">Author Select</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId" class="form-select" asp-items='@(@ViewBag.Categories)'>
+            <option value="0">Country Select</option>
+        </select>
+    </div>
+    <div class="mb-3">
+    <label asp-for="CountryId" class="form-label">Country</label>
+        <select asp-for="CountryId" class="form-select" asp-items='@(@ViewBag.Countries)'>
+            <option value="0">Category Select</option>
+        </select>
+    </div>
+    <button class="btn btn-primary">Update</button>
+</form>
